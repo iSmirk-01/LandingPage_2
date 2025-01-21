@@ -1,6 +1,6 @@
 import Image from "next/image"
 import NexcentLogo from "@/public/svg/NexcentLogoSvg.svg";
-import Button from "./components/Button";
+import Button from "./components/ButtonIcon";
 import { GoArrowRight } from "react-icons/go";
 
 function Nav() {

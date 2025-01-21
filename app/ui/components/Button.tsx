@@ -1,20 +1,12 @@
-import React from 'react'
 interface Props {
-    name: string
-    containerCss: string
-    cssBtn: string
-    icon: React.ReactNode
+    name: string;
+    btnCss: string
 }
 
-function Button({ name, containerCss, cssBtn, icon }: Props) {
+function Button({ name, btnCss }: Props) {
   return (
-    <div
-      className={`${containerCss} relative flex gap-3 items-center bg-darkLime cursor-pointer`}
-    >
-      <button className={`${cssBtn} text-white`}>{name}</button>
-      <span>{icon}</span>
-    </div>
-  );
+      <button className={`${btnCss} bg-darkLime text-white px-5 py-2 rounded focus:outline-5 focus:outline-blue-500`}>{name}</button>
+  )
 }
 
 export default Button
