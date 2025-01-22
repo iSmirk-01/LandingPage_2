@@ -15,7 +15,7 @@ function Nav() {
             <li className="cursor-pointer">Blog</li>
             <li className="cursor-pointer">Pricing</li>
           </ul>
-            <Button name="Register Now" containerCss="px-3 py-2 rounded" cssBtn="" icon={<GoArrowRight className="text-white" />} />
+            <Button name="Register Now" containerCss="px-3 py-2 rounded bg-darkLime text-white" cssBtn="" icon={<GoArrowRight className="text-white" />} />
       </div>
     </div>
   );
