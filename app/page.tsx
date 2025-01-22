@@ -7,6 +7,7 @@ import Tale from './ui/Tale'
 import Stat from './ui/Stat'
 import Tale2 from './ui/Tale2'
 import Testimonial from './ui/Testimonial'
+import CaringInAction from './ui/CaringInAction'
 
 function page() {
   return (
@@ -19,6 +20,7 @@ function page() {
       <Stat />
       <Tale2 />
       <Testimonial />
+      <CaringInAction />
     </div>
   )
 }

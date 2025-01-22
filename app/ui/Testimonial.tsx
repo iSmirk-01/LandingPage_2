@@ -35,7 +35,7 @@ function Testimonial() {
           <Image src={LogoLipsum} alt="LogoLipsum logo" />
           <Image src={Swirl} alt="Swirl logo" />
           <Image src={Infinite} alt="Infinite logo" />
-          <ButtonIcon name="Meet all customers" containerCss="" cssBtn="text-darkLime" icon={<GoArrowRight className='text-darkLime' />} />
+          <ButtonIcon name="Meet all customers" containerCss="" cssBtn="text-darkLime font-bold" icon={<GoArrowRight className='text-darkLime' />} />
         </div>
       </div>
     </div>
