@@ -9,10 +9,10 @@ interface Props {
 function ButtonIcon({ name, containerCss, cssBtn, icon }: Props) {
   return (
     <button
-      className={`${containerCss} relative flex gap-3 items-center bg-darkLime cursor-pointer focus:outline-5 focus:outline-blue-500`}
-      aria-label={name} // Optional if `name` is clear enough
+      className={`${containerCss} relative flex gap-3 items-center cursor-pointer focus:outline-5 focus:outline-blue-500`}
+      aria-label={name}
     >
-      <span className={`${cssBtn} text-white`}>{name}</span>
+      <span className={`${cssBtn}`}>{name}</span>
       <span aria-hidden="true">{icon}</span>
     </button>
   );
