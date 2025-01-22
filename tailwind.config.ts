@@ -14,6 +14,7 @@ export default {
         foreground: "var(--foreground)",
         darkLime: "#4CAF4F",
         silver: "#F5F7FA",
+        greyText: "#717171",
       },
     },
   },
