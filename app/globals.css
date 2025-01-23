@@ -12,3 +12,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.focusable-item:focus {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
+

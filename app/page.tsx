@@ -9,6 +9,7 @@ import Tale2 from './ui/Tale2'
 import Testimonial from './ui/Testimonial'
 import CaringInAction from './ui/CaringInAction'
 import Demo from './ui/Demo'
+import Footer from './ui/Footer'
 
 function page() {
   return (
@@ -23,6 +24,7 @@ function page() {
       <Testimonial />
       <CaringInAction />
       <Demo />
+      <Footer />
     </div>
   )
 }
