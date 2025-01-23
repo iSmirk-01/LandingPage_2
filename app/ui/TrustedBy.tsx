@@ -11,8 +11,8 @@ function TrustedBy() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center gap-10 py-20">
       <div className="flex flex-col gap-3 w-full h-full items-center justify-center">
-        <h1 className="text-4xl font-bold">Our clients</h1>
-        <p>We have been working with some Fortune 500+ clients</p>
+        <h1 className="text-4xl font-bold text-greyDark">Our clients</h1>
+        <p className='text-greyText'>We have been working with some Fortune 500+ clients</p>
       </div>
       <div className="grid grid-cols-7 gap-8 w-[80%] h-full">
         <Image src={FourPill} alt="FourPill logo" />

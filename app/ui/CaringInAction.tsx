@@ -8,10 +8,10 @@ function CaringInAction() {
   return (
     <div className="flex flex-col gap-6 w-full min-h-[400] items-center justify-center mb-28 p-8">
       <div className="flex flex-col gap-3 items-center justify-center">
-        <h1 className="text-4xl text-greyText font-bold">
+        <h1 className="text-4xl text-greyDark font-bold">
           Caring is the new marketing
         </h1>
-        <p className="text-center max-w-[700px]">
+        <p className="text-center max-w-[700px] text-greyText">
           The Nextcent blog is the best place to read about the latest
           membership insights, trends and more. See who&apos;s joining the community, 
           read about how our community are increasing their membership income

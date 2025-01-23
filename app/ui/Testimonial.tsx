@@ -14,7 +14,7 @@ function Testimonial() {
     <div className="w-full min-h-[300] grid grid-cols-[1fr_2fr] gap-4 p-14 place-items-center bg-silver">
       <Image src={TProduct} alt="a picture of a product" className='scale-[1.2]' />
       <div className="flex flex-col items-start justify-start gap-4">
-        <p className=''>
+        <p className='text-greyText'>
           Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
           sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.
           Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
@@ -27,7 +27,7 @@ function Testimonial() {
           dignissim finibus ac sit amet magna.
         </p>
         <h4 className="text-lg text-darkLime">Tim Smith</h4>
-        <p>British Dragon Boat Racing Association</p>
+        <p className='text-gray-400'>British Dragon Boat Racing Association</p>
         <div className="flex items-center justify-center gap-10">
           <Image src={FourPill} alt="FourPill logo" />
           <Image src={Sphear} alt="Sphear logo" />

@@ -8,7 +8,7 @@ function Nav() {
     <div className="w-full h-[58] flex items-center justify-between px-20 py-8">
       <Image src={NexcentLogo} alt="Nexcent logo" className="scale-[1.2]" />
       <div className="flex items-center justify-center gap-4">
-          <ul className="flex gap-4">
+          <ul className="flex gap-4 text-greyDark">
             <li className="cursor-pointer">Home</li>
             <li className="cursor-pointer">Features</li>
             <li className="cursor-pointer">Community</li>

@@ -6,9 +6,9 @@ import StatComponent from './components/StatComponent';
 
 function Stat() {
   return (
-    <div className="w-full h-[400] grid grid-cols-2 place-items-center gap-5 bg-silver">
+    <div className="w-full h-[300] grid grid-cols-2 place-items-center gap-5 bg-silver">
       <div className="flex flex-col items-center justify-center gap-3">
-        <h1 className='font-bold text-4xl'>Helping a local<br/> <span className='text-darkLime'>business reinvent itself</span></h1>
+        <h1 className='font-bold text-4xl text-greyDark'>Helping a local<br/> <span className='text-darkLime'>business reinvent itself</span></h1>
         <p className='self-start'>We reached here with our hard work and dedication</p>
       </div>
       <div className="grid grid-cols-2 gap-4">
