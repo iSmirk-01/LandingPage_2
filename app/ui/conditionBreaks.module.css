@@ -1,0 +1,38 @@
+/* this file contains all breakpoint styles for the ui */
+
+.conditionalBreak {
+  display: none;
+}
+
+@media (min-width: 1532) {
+  .conditionalBreak {
+    display: inline;
+  }
+}
+
+@media (max-width: 745) {
+  .conditionalBreak {
+    display: inline;
+  }
+}
+
+
+.conditionalWidthText {
+    align-self: start;
+}
+
+@media (max-width: 1532) {
+  .conditionalWidthText {
+    align-self: center;
+  }
+
+.conditionalWrap {
+  white-space: wrap
+}
+
+}
+@media (min-width: 1472) {
+  .conditionalWrap {
+    white-space: nowrap;
+  }
+}

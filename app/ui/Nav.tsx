@@ -15,7 +15,7 @@ function Nav() {
   };
 
   return (
-    <div className="w-full h-[58px] flex items-center justify-between px-6 md:px-20 py-4 shadow-md bg-white fixed top-0 left-0 z-50">
+    <div className="w-full h-[58px] flex items-center justify-between px-6 md:px-20 py-4 shadow-sm bg-white fixed top-0 left-0 z-50">
       {/* Logo */}
       <Image src={NexcentLogo} alt="Nexcent logo" className="scale-[1.2]" />
 

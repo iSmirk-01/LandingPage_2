@@ -6,14 +6,14 @@ import Hands from '@/public/svg/Hands.svg'
 
 function Audience() {
   return (
-    <div className="w-full min-h-[291] grid place-items-center">
+    <div className="w-full min-h-[291] grid place-items-center p-8">
       <div className="flex flex-col items-center justify-center gap-4 p-4">
         <h1 className="font-bold text-4xl text-center text-greyDark">
           Manage your entire community<br /> in a single system
         </h1>
         <p className='text-greyText'>Who is Nextcent suitable for?</p>
       </div>
-      <div className="grid grid-cols-3 gap-4 place-items-center">
+      <div className="grid brid-cols-1 lg:grid-cols-3 gap-4 place-items-center p-8">
         <AudienceCard
           src={Group}
           alt={`Membership Organisations`}

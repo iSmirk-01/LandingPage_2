@@ -18,7 +18,7 @@ function CaringInAction() {
           and lot&apos;s more​.
         </p>  
       </div>
-      <div className="grid grid-cols-3 place-items-center gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-36 md:gap-10">
         <CaringInActionCard
           title={"Creating Streamlined Safeguarding Processes with OneRen"}
           src={CouchWork}
@@ -26,7 +26,7 @@ function CaringInAction() {
         />
         <CaringInActionCard
           title={
-            "What are your safeguarding responsibilities and how can you manage them?"
+            "What are your safeguarding responsibilities"
           }
           src={BedWork}
           alt={""}

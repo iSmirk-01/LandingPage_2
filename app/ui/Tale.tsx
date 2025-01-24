@@ -4,7 +4,7 @@ import Contact from '@/public/svg/IllustrationContact.svg'
 
 function Tale() {
   return (
-    <div className="w-full min-h-[301] grid place-items-center grid-cols-2 p-10">
+    <div className="w-full min-h-[301] grid place-items-center grid-cols-1 md:grid-cols-2 p-10 gap-8">
       <Image src={Contact} alt="a phone iamge" />
       <div className="flex flex-col items-start justify-center gap-5">
         <h1 className="text-4xl font-bold text-greyDark">The unseen of spending three<br/> years at Pixelgrade</h1>

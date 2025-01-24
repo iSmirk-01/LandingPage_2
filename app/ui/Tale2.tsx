@@ -4,7 +4,7 @@ import Pana from '@/public/svg/pana.svg'
 
 function Tale2() {
   return (
-    <div className='grid grid-cols-[1fr_2fr] p-20 w-full place-items-center gap-1'>
+    <div className='grid grid-cols-1 lg:grid-cols-[1fr_2fr] p-20 w-full place-items-center gap-8'>
       <Image src={Pana} alt='an image of a mobile phone' className='' />
       <div className='flex flex-col gap-4 justify-start items'>
         <h1 className='text-4xl font-bold text-greyDark'>How to design your site footer like<br/> we did</h1>

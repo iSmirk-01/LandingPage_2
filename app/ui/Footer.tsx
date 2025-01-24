@@ -8,9 +8,9 @@ import InputArrow from '@/public/svg/InputArrow.svg'
 
 function Footer() {
   return (
-    <div className="grid grid-cols-[1fr_2fr] h-max w-full p-10 bg-greyDark">
-      <div className='flex items-center justify-center'>
-          <div className=" flex flex-col gap-8 justify-start items-start">
+    <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] h-max w-full p-10 bg-greyDark place-items-center">
+      <div className='flex items-center justify-center pb-8'>
+          <div className="flex flex-col gap-8 justify-center lg:justify-start items-center lg:items-start">
             <Image src={Nextcent} alt={"Nextcent logo"} className="scale-[1.3] ml-5" />
             <p className="text-white">
               Copyright © 2020 Landify UI Kit.
@@ -24,7 +24,7 @@ function Footer() {
             </div>
           </div>
       </div>
-      <div className="flex items-center justify-center gap-16 w-full">
+      <div className="grid lg:grid-cols-3 place-items-center gap-10 lg:gap-16 w-full">
         <ul className="flex flex-col items-center justify-center text-white gap-1">
           <li className="font-bold text-lg mb-4">Company</li>
           <li className='cursor-pointer'>About us</li>
